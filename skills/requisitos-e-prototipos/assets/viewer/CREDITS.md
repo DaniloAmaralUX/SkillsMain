@@ -1,0 +1,1 @@
+Viewer adaptado pela Pitang do [Prototype Viewer](https://github.com/appariciojunior/prototype-viewer) de Apparicio Bueno, base a017ed8. Seletor de versões inspirado em Emil Kowalski. Licença do código em [LICENSE](LICENSE). A marca Pitang pertence aos seus titulares. Esta versão incorpora o Kit nativo, requisitos com fontes e exportação da especificação em um HTML portátil.

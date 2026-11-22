@@ -1,0 +1,4 @@
+#screen .sample-page { max-width: 42rem; margin-inline: auto; padding-top: 24px; }
+#screen .sample-page h1 { margin: 0; font-size: calc(var(--fs) * 26px); line-height: 1.2; }
+#screen .sample-page p { margin: 0; color: var(--sk-ink-2); line-height: 1.5; }
+#screen .sample-page .sk-input { font-size: max(16px, calc(var(--fs) * 16px)); }

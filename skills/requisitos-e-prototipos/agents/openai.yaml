@@ -1,0 +1,4 @@
+interface:
+  display_name: "Requisitos e Protótipos"
+  short_description: "Da ideia ou do documento ao protótipo aberto na IDE"
+  default_prompt: "Use $requisitos-e-prototipos para criar, testar e abrir o protótipo a partir da minha ideia ou do documento que enviei."
