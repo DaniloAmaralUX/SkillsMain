@@ -273,7 +273,10 @@
     renderFrame = requestAnimationFrame(() => {
       try {
         cleanup = ver.render(screen, ctx) || null;
-        if (moveFocus) { screen.tabIndex = -1; screen.focus({ preventScroll: true }); }
+        if (moveFocus && !screen.contains(document.activeElement)) {
+          screen.tabIndex = -1;
+          screen.focus({ preventScroll: true });
+        }
         const scroll = screen.querySelector(".sk-scroll");
         if (scroll && restore.scrollTop) scroll.scrollTop = restore.scrollTop;
       }
